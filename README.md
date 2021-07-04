@@ -1,1 +1,1 @@
-# Building Websites With HTML, CSS, and JavaScript: Getting Started
+# Website built With HTML, CSS, and JavaScript
