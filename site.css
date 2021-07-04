@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #999;
+}
+
+p {
+    margin: .5em 0 .5em 0;
+}
+
+header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a493c0;
+    padding: 10px;
+}
+
+nav a:visited,
+nav a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav>ul {
+    display: inline;
+    padding: 0;
+}
+
+nav>ul>li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+
+main {
+    display: block;
+    background-image: url("images/background.png");
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+}
+
+footer {
+    padding: 15px;
+}
+
+aside,
+article {
+    padding: 2em;
+}
+
+aside {
+    text-align: center;
+}
+
+article {
+    width: 75%;
+}
+
+.columns {
+    display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+    }
+    aside {
+        margin-left: 2%;
+    }
+    .columns-desktop {
+        display: flex;
+    }
+}
+
+
+/* Pies */
+
+.pie {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+}
+
+.pie img {
+    width: 100%;
+}
+
+.pie .title {
+    font-weight: bold;
+}
+
+.pie .columns {
+    width: 100%;
+}
+
+.pie .price {
+    text-align: right;
+}
+
+.pie .columns div {
+    width: 50%;
+}
+
+.pie button {
+    background-color: #f6aeae;
+    padding: 10px;
+    border: solid 1px #f6aeae;
+    border-radius: 3px;
+    color: #fff;
+}
