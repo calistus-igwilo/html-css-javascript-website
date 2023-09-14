@@ -26,7 +26,7 @@ header {
     padding: 10px;
 }
 
-nav a:visited,
+/* nav a:visited,
 nav a:link {
     color: #fff;
     text-decoration: none;
@@ -41,10 +41,65 @@ nav>ul>li {
     display: inline-block;
     list-style: none;
     margin: 0 5px 0 5px;
+} */
+/* Reset default list styles */
+ul.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-main {
+/* Style the navigation bar */
+.navbar {
+    background-color: #a493c0;
+    padding: 10px;
+}
+
+/* Style the navigation items */
+.nav-item {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+    margin-left: 150px;
+}
+
+/* Style the logo */
+.nav-item.logo img {
+    height: 40px;
+    /* Adjust the height as needed */
+    vertical-align: middle;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item a:visited,
+.nav-item a:link {
+    color: #fff;
+}
+
+.nav-item a:hover {
+    color: #f6aeae;
+    /* Change color on hover */
+}
+/* main {
     display: block;
+    background-image: url("images/background.png");
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+} */
+main {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
     background-image: url("images/background.png");
     padding-top: 3em;
     padding-bottom: 3em;
